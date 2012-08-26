@@ -1,0 +1,5 @@
+给定a,b两个文件，各存放50亿个url，每个url64字节，找出相同的url
+gen:	产生两个文件  用数字代表url
+hash:	hash成2＊1000个小文件 320MBytes/file
+merge:	查找每对文件中的相同的url并追加到输出文件
+
