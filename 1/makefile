@@ -8,4 +8,4 @@ merge:	merge.c
 test:	test.c
 	gcc -w -o test test.c -g
 clean:		
-	rm ha/* hb/*
+	rm gen merge test hash
